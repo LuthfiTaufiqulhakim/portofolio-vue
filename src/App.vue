@@ -3,10 +3,10 @@
   <!-- This is an example component -->
   <div class="max-w-7xl mx-auto flex flex-col relative">
 
-    <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80">
+    <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#FD9B63] bg-opacity-80">
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <button @click="redirectToHome" class="flex">
-          <span class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">Luthfi Taufiqulhakim</span>
+          <span class="self-center text-lg text-[#973131] font-bold whitespace-nowrap fadein-bot hover:text-amber-100">Luthfi Taufiqulhakim</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
           <a href="https://github.com/LuthfiTaufiqulhakim"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a>
@@ -79,7 +79,7 @@ export default {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffdb70;
+  background: #E3CAA5;
   border-radius: 5px;
 }
 
@@ -87,7 +87,7 @@ export default {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: hsl(0, 0%, 7%);
+  background-color: #E3CAA5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -97,6 +97,7 @@ body {
 
 nav {
   padding: 30px;
+  background-color: #365E32;
 }
 
 nav a {

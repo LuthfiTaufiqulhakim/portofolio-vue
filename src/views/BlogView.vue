@@ -4,7 +4,7 @@
       <div class="w-full md:w-2/3">
         <div class="flex flex-col gap-4 md:px-20 fade-zoom-up">
           <article v-for="article in articles" :key="article.id">
-            <router-link :to="`/read/${article.slug}/${article.id}`" class="flex w-full bg-[#1e1e1f] border-[#383838] rounded-xl text-left text-white p-5 md:py-7 md:px-8 cursor-pointer hover:bg-[#282828] items-center">
+            <router-link :to="`/read/${article.slug}/${article.id}`" class="flex w-full bg-[#81A263] border-[#383838] rounded-xl text-left text-white p-5 md:py-7 md:px-8 cursor-pointer hover:bg-[#365E32] items-center">
               <div class="w-full pr-4">
                 <div class="text-xs mb-1 text-slate-400 flex items-center italic">
                   <div class="h-[1px] w-20 bg-amber-200 md:w-5 aos-init aos-animate mr-2"></div> {{ article.date }}
@@ -24,7 +24,7 @@
       <div class="w-full md:w-1/3 h-fit p-8 md:sticky md:top-24">
         <!-- Sidebar -->
         <div class="flex flex-col text-left">
-          <div class="bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300 text-transparent">Let's share experiences,
+          <div class="bg-clip-text bg-gradient-to-r from-slate-400 to-[#81A263] text-transparent">Let's share experiences,
             stories, and knowledge together.
           </div>
           <div class="h-[1px] mt-7 mb-7 w-20 bg-amber-200 aos-init aos-animate mr-2"></div>
