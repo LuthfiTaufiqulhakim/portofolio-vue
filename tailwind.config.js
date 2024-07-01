@@ -14,6 +14,7 @@ module.exports = {
       }
     },
     animation: {
+      neon: 'neon 1.5s ease-in-out infinite alternate',
       none: 'none',
       spin: 'spin 1s linear infinite',
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
@@ -111,6 +112,7 @@ module.exports = {
       8: '8px',
     },
     boxShadow: {
+      'neon-static': '0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff',
       sm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
       DEFAULT: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
       md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
@@ -550,6 +552,11 @@ module.exports = {
       DEFAULT: '100%',
     },
     keyframes: {
+      neon: {
+        '0%': { boxShadow: '0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff' },
+        '50%': { boxShadow: '0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 100px #0ff' },
+        '100%': { boxShadow: '0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff' },
+      },
       spin: {
         to: {
           transform: 'rotate(360deg)',

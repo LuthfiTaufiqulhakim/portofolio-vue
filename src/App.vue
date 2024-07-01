@@ -6,7 +6,7 @@
     <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#FD9B63] bg-opacity-80">
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <button @click="redirectToHome" class="flex">
-          <span class="self-center text-lg text-[#973131] font-bold whitespace-nowrap fadein-bot hover:text-amber-100">Luthfi Taufiqulhakim</span>
+          <span class="self-center text-lg text-gray-500 font-bold whitespace-nowrap fadein-bot hover:text-amber-100">Luthfi Taufiqulhakim</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
           <a href="https://github.com/LuthfiTaufiqulhakim"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a>
@@ -87,8 +87,10 @@ export default {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #E3CAA5;
-  -webkit-font-smoothing: antialiased;
+  background-image: url('./assets/background.gif');
+background-size: cover;
+background-repeat: repeat;
+-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
@@ -97,7 +99,8 @@ body {
 
 nav {
   padding: 30px;
-  background-color: #365E32;
+  background-image: url('./assets/background.gif');
+  background-size: cover;
 }
 
 nav a {

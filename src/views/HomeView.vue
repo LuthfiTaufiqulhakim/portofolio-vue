@@ -3,7 +3,7 @@
     class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <div class="space-y-2 text-center md:text-left px-10">
       <p class="text-[#AF8260]">Nice to meet you, I'm</p>
-      <h1 class="text-4xl font-bold md:text-5xl text-[#81A263] fadein-up">Luthfi Taufiqulhakim</h1>
+      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Luthfi Taufiqulhakim</h1>
       <div class="py-2">
         <h1
           class="typewrite text-xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-slate-50 to-[#973131] md:text-2xl fadein-up"
@@ -15,8 +15,8 @@
       <br>
       
     </div>
-    <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/10 md:h-auto rounded-full border-4 border-amber-200 pict" src="../assets/profileku.jpg">
+    <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="200" height="100" decoding="async" data-nimg="1"
+        class="border-4 border-neon rounded-lg shadow-neon-static animate-neon" src="../assets/profileku.png">
     </div>
   </main>
 </template>
