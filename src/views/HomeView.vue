@@ -2,18 +2,17 @@
   <main
     class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <div class="space-y-2 text-center md:text-left px-10">
-      <p class="text-[#AF8260]">Nice to meet you, I'm</p>
+      <p class="text-white">Nice to meet you, <span class="text-orange-500">I'm</span></p>
       <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Luthfi Taufiqulhakim</h1>
       <div class="py-2">
         <h1
-          class="typewrite text-xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-slate-50 to-[#973131] md:text-2xl fadein-up"
+          class="typewrite text-xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-slate-50 to-green-500 md:text-2xl fadein-up"
           ref="typewriter">
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-[#81A263] pr-4 fade-in-from-left">Welcome to My personal website. <span class="wave">👋🏼</span></p>
+      <p class="text-orange-500 pr-4 fade-in-from-left">Welcome to My personal website. <span class="wave">👋🏼</span></p>
       <br>
-      
     </div>
     <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="200" height="100" decoding="async" data-nimg="1"
         class="border-4 border-neon rounded-lg shadow-neon-static animate-neon" src="../assets/profileku.png">
